@@ -14,7 +14,7 @@ protocol PrepareForSkeleton {
 
 extension UILabel: PrepareForSkeleton {
     func prepareViewForSkeleton() {
-        text = " "
+        text = "placeholder"
         resignFirstResponder()
     }
 }
